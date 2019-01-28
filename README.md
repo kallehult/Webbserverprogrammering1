@@ -14,7 +14,6 @@ Fundera över vilka domänobjekt du har och skapa upp databärande objekt som re
 <br>
 T.ex: 
 <br>
-<code>
 <?PHP 
 
 class Product {
@@ -35,7 +34,7 @@ class Product {
   ...
   
 }
-</code>
+
 Skapa även upp klasser för att hantera databasfrågor, så att dessa blir återanvändbara och inte blandas in direkt i ditt View lager
 
 
