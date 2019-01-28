@@ -1,3 +1,6 @@
+//Dela upp logik. 
+
+
 <!-- /**
 * Hit kommer du när du trycker på submit i logga in som admin
 * 
@@ -57,7 +60,9 @@ if(isset($_POST['admin_submit'])){
     $username = $_POST['username'];
     $password = $_POST['password'];
 
-    $sql ="SELECT * FROM admin2 WHERE username='$username' AND  password='$password'";
+    $sql ="SELECT * FROM admin2 WHERE username='$username' AND  password='$password'";  //Det saknas sanitering av parametrar här, och 
+    // eftersom $username och $password kommer från användarinput så blir du sårbar för sql injection. 
+    
     $result = mysqli_query($con, $sql);
     $resultCheck = mysqli_num_rows($result);
     if($resultCheck < 1){
