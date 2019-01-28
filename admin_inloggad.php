@@ -1,3 +1,10 @@
+KALLE: Vi vill undvika att blanda in flera lager i samma fil. Här kan du fundera över ifall det går att dela upp så att 
+buisiness locig ligger i ett eget lager, och view logic i ett annat. Alltså, att rita upp en html för sig, att hämta data för sig, 
+och att style ligger för sig. 
+
+
+
+
 <!-- /**
 * Hitt kommer admin när de har loggat in
 * 
