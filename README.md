@@ -3,7 +3,7 @@
 HEJ
 
 Börja med att fundera över hur man kan organisera projektet så att det blir tydligare lager i filstrukturen. 
-
+\n
 En vanlig grund är att dela in filerna enligt en MVC (Model, View, Controller)-liknande struktur
 
 Model:
