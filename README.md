@@ -1,6 +1,7 @@
 # Webbutveckling1
 
 HEJ
+(Klicka för att editera README.md så blir min text mer läsbar)
 
 Börja med att fundera över hur man kan organisera projektet så att det blir tydligare lager i filstrukturen. 
 <br>
