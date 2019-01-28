@@ -1,3 +1,6 @@
+//Skapa en class istället, och undvik att använda depricerad sql motor. Alltså byt till en PDO connection. 
+
+
 <!-- /**
 * Databaskoppling. 
 * 
