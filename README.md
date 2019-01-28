@@ -6,10 +6,14 @@ Börja med att fundera över hur man kan organisera projektet så att det blir t
 <br>
 En vanlig grund är att dela in filerna enligt en MVC (Model, View, Controller)-liknande struktur
 <br>
+<br>
 Model:
 I ditt Modell lager så bör all kod vara OO, alltså classes, interfaces osv. 
+<br>
 Fundera över vilka domänobjekt du har och skapa upp databärande objekt som representerar dessa. 
+<br>
 T.ex: 
+<br>
 <?PHP 
 
 class Product {
